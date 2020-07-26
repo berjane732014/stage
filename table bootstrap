@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body>
+
+        <h1 class="text-center">tableau avec html et bootstrap</h1>
+        <hr>
+        <!-- button -->
+        <div class="text-center mb-3 ">
+            <button class="btn mr-3 btn- btn-info text-uppercase">ajouter</button>
+            <button class="btn mr-3 btn- btn-info text-uppercase">modifier</button>
+            <button class="btn mr-3 btn- btn-info text-uppercase">supprimer</button>
+        </div>
+        <!-- table  -->
+        <main>
+        <table class="table-striped table text-center " >
+          <thead>
+            <tr>
+              <th>objet</th>
+              <th>quantite</th>
+              <th>date</th>
+              <th>prix</th>
+            </tr>
+          </thead>
+            <tbody>
+              <tr>
+                <td>stylo</td>
+                <td>10</td>
+                <td>12/11/2020</td>
+                <td>15dh</td>
+              </tr>
+              <tr>
+                <td>cartouche</td>
+                <td>4</td>
+                <td>14/11/2020</td>
+                <td>20dh</td>
+              </tr>
+              <tr>
+                <td>cahier</td>
+                <td>50</td>
+                <td>2/11/2020</td>
+                <td>100dh</td>
+              </tr>
+              <tr>
+                <td>pochette</td>
+                <td>42</td>
+                <td>13/11/2020</td>
+                <td>32dh</td>
+              </tr>
+              <tr>
+                <td>effaceur</td>
+                <td>15</td>
+                <td>4/11/2020</td>
+                <td>23dh</td>
+              </tr>
+              <tr>
+                <td>classeur</td>
+                <td>12</td>
+                <td>5/11/2020</td>
+                <td>150dh</td>
+              </tr>
+          </tbody>
+         
+        </table>
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</body>
+</html>
