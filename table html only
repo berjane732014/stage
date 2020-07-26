@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stage</title>
+    <link rel="stylesheet" href="bla.css">
+</head>
+<body>
+    <header>
+                                            <!-- h1 -->
+        <h1>un simple tableau avec html</h1>
+                                             <!-- button -->
+    <div class="les-button">
+            <button>ajouter</button>
+            <button>modifier</button>
+            <button>supprimer</button>
+    </div>
+    </header>
+                                            <!-- table -->
+    <main>
+    <table>
+        <thead>
+            <tr>
+                <th>numero d'article </th>
+                <th>articles</th>
+                <th>date</th>
+                <th>montant</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>t-shirt</td>
+                <td>11/4/2020</td>
+                <td>200dh</td>
+            </tr>
+            <tr >
+                <td>2</td>
+                <td>pantalon</td>
+                <td>25/2/2020</td>
+                <td>300dh</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>casquette</td>
+                <td>22/2/2020</td>
+                <td>50dh</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>chaussette</td>
+                <td>1/3/2020</td>
+                <td>22dh</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>t-shirt</td>
+                <td>23/11/2020</td>
+                <td>500dh</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>t-shirt</td>
+                <td>12/3/2020</td>
+                <td>200dh</td>
+            </tr>
+        </tbody>
+    </table>
+</main>
+</body>
+</html>
