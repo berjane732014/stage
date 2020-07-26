@@ -1,0 +1,14 @@
+hr{
+    width:50%;
+    height:5px;;
+    background:chartreuse;
+}
+hr{
+    height:5%;
+}
+@media(max-width:700px)
+{
+    main{
+        overflow:scroll;
+    }
+}
